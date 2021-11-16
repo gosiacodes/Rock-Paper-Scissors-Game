@@ -1,0 +1,107 @@
+/* css without media queries */
+body {
+    font-family: Varela Round, Tahoma, Helvetica, Verdana, Arial, sans-serif;
+    background-color: #F9F871;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.game {
+    padding: 0 1.25rem;
+}
+
+h1 {
+    text-align: center;
+    color: #435D99;
+    text-shadow: 3px 3px 5px #00ABC3;
+}
+
+h2 {
+    text-align: center;
+    color: #434656;
+}
+
+.title {
+    font-size: 3.125rem;
+}
+
+#message {
+    margin: 0;
+}
+
+.scores {
+    color: #ff3333;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 0.625rem;
+    margin: 0.625rem;
+}
+
+.col1 {
+    width: 40%;
+}
+
+.col2 {
+    width: 50%;
+}
+
+.user-column {
+    border: 2px solid #0085BD;
+    border-radius: 1rem;
+    height: 15.625rem;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(74,68,83,.7);
+}
+
+input {
+    padding: 0.625rem;
+    margin: 0.3125rem;
+    width: 12.5rem;
+    height: 2.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.3125rem;
+}
+
+img {
+    width: 80%;
+    max-width: 25rem;
+    margin: 1.25rem auto;
+}
+
+.buttons {
+    padding: 0.3125rem;
+    margin: 0.3125rem 1.5625rem;
+    width: 8.75rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: #00ABC3;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0 3px 8px rgba(74,68,83,.7);
+}
+
+.buttons:hover {
+    background-color: #0085BD;
+}
+
+.buttons:disabled {
+    background-color: #cccccc;
+    color: black;
+    cursor: inherit;
+}
+
