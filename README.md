@@ -2,7 +2,7 @@
 # :sparkles: Rock Paper Scissors Game :sparkles:
 "Rock Paper Scissors" game for one player vs computer - school project at JavaScript1 course (2021)
 
-https://margareta75.github.io/Rock-Paper-Scissors-Game/
+https://gosiacodes.github.io/Rock-Paper-Scissors-Game/
 
 ## :pushpin: _How does the application work?_
 
